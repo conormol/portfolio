@@ -17,6 +17,7 @@ h2 {
 a {
     text-decoration: none;
     color: #333333;
+    transition: opacity .15s ease-in;
 }
 
 header {
@@ -67,4 +68,5 @@ footer img {
 
 a:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
