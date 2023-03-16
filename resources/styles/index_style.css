@@ -30,7 +30,7 @@ main {
     height: 26rem;
     width: 25rem;
     margin: 2rem 0rem;
-    box-shadow: 2px 0px 10px  #333 ;
+    box-shadow: 2px 0px 10px  #333;
 }
 
 #portfolio--container h2 {
@@ -50,10 +50,7 @@ main {
 }
 
 .menu--image-container {
-    background-image: none;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
+    height: 65%;
     width: 80%;
     border:1px solid black;
 }
@@ -72,6 +69,18 @@ main {
 
 .menu--image-container a:hover {
     opacity: 0.8
+}
+
+#portfolio--image-container {
+    background-image: url("../images/project.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact--image-container {
+    background-image: url("../images/contact_form.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
