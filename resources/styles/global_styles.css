@@ -8,11 +8,10 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 2rem;    
+    padding: 1rem 2rem;    
 }
 
-header a,
-header ul li a {
+header a {
     text-decoration: none;
     color: #333333;
 }
@@ -26,9 +25,47 @@ header ul li {
     margin-left: 1rem;
 }
 
-header a:hover,
-header ul li a:hover {
+header a:hover {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: #d9d9d9;
+    color: #333333;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .copyright {
+    position: absolute;
+    bottom: 1rem;
+}
+
+footer .contact--socials {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer img {
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+}
+
+footer a:hover {
+    opacity: 0.6;
+}
