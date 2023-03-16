@@ -1,3 +1,77 @@
 header nav ul .index--nav {
     opacity: 0.4;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+.description {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+}
+
+.main--menu {
+    display: flex;
+}
+
+.menu--container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-items: center;  
+    height: 26rem;
+    width: 25rem;
+    margin: 2rem 0rem;
+    box-shadow: 2px 0px 10px  #333 ;
+}
+
+#portfolio--container h2 {
+    color: #717171;
+}
+
+#contact--container h2 {
+    color: #f0ecec;
+}
+
+#portfolio--container {
+    background-color: #f0ecec;
+}
+
+#contact--container {
+    background-color: #717171;
+}
+
+.menu--image-container {
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 80%;
+    border:1px solid black;
+}
+
+.menu--image-container a {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: lightgray;
+    opacity: 0;
+    font-size: 1.5rem;
+    transition: opacity 0.2s ease-in;
+
+}
+
+.menu--image-container a:hover {
+    opacity: 0.8
+}
+
+
