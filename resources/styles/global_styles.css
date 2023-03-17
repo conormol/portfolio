@@ -41,12 +41,12 @@ footer {
     background-color: #d9d9d9;
     color: #333333;
     padding: 2rem;
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
 }
 
 footer .copyright {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 1rem;
 }
 

@@ -83,4 +83,21 @@ main {
     background-repeat: no-repeat;
 }
 
+.skills {
+    width: 80%;
+}
+
+.skills--title {
+    margin: 2rem;
+}
+.skills--icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills--icon {
+    height: 4rem;
+    width: auto;
+}
+
 
