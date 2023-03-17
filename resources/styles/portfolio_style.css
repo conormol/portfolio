@@ -23,7 +23,7 @@ header nav ul .portfolio--nav {
 }
 
 .project--image-container {   
-    background-image: none;
+    background-image: url("../images/project.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 65%;
