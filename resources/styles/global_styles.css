@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;    
+    margin-bottom: 3rem;
 }
 
 header ul {
@@ -35,19 +36,16 @@ header ul li {
     margin-left: 1rem;
 }
 
+main {
+    min-height: 600px;
+}
+
 footer {
     display: inline-block;
     width: 100%;
     background-color: #d9d9d9;
     color: #333333;
     padding: 2rem;
-    /*position: absolute;*/
-    bottom: 0;
-}
-
-footer .copyright {
-    /*position: absolute;*/
-    bottom: 1rem;
 }
 
 footer .contact--socials {
