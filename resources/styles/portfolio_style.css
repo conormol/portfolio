@@ -35,6 +35,7 @@ header nav ul .portfolio--nav {
     justify-content: center;
     align-items: center;    
     background-color: lightgrey;
+    font-family: louisgeorgebold;
     font-size: 1.5rem;
     width: 100%;
     height: 100%;
@@ -42,7 +43,7 @@ header nav ul .portfolio--nav {
 }
 
 .project--image-container a:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .project--title-description {
