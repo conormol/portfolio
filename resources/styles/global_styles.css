@@ -57,7 +57,7 @@ header ul li {
 }
 
 main {
-    min-height: 600px;
+    min-height: 800px;
 }
 
 footer {
@@ -91,4 +91,22 @@ footer img {
 a:hover {
     opacity: 0.6;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    * {
+        font-size: 10px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
 }
