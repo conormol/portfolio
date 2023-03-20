@@ -56,6 +56,10 @@ main {
     height: 65%;
     width: 80%;
     border:1px solid black;
+    background-size: 80%;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .menu--image-container a {    
@@ -77,16 +81,11 @@ main {
 
 #portfolio--image-container {
     background-image: url("../images/project.png");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #contact--image-container {
     background-image: url("../images/mail.png");
-    background-size: 80%;
-    background-color: #f0ecec;
-    background-repeat: no-repeat;
-    background-position: 50%;
+    
 }
 
 .skills {
