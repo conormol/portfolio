@@ -1,18 +1,35 @@
+@font-face {
+    font-family: louisgeorge;
+    src: url(../fonts/Louis_George_Cafe.ttf);
+}
+
+@font-face {
+font-family: louisgeorgebold;
+src: url(../fonts/Louis_George_Cafe_Bold.ttf);
+}
+
+@font-face {
+    font-family: louisgeorgeitalic;
+    src: url(../fonts/Louis_George_Cafe_Italic.ttf);
+}
+  
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: louisgeorge;
     font-size: 16px;
     color: #333333;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
+h1, 
 h2 {
     font-size: 2rem;
+    font-family: louisgeorgebold;
 }
+
+
 
 a {
     text-decoration: none;
@@ -62,6 +79,10 @@ footer img {
     height: 2rem;
     width: 2rem;
     margin: 1rem;
+}
+
+.copyright {
+    font-family: louisgeorgeitalic;
 }
 
 a:hover {

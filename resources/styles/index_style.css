@@ -62,13 +62,14 @@ main {
     height: 100%;
     background-color: lightgray;
     opacity: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: louisgeorgebold;
     transition: opacity 0.2s ease-in;
 
 }
 
 .menu--image-container a:hover {
-    opacity: 0.8
+    opacity: 0.9
 }
 
 #portfolio--image-container {
@@ -78,10 +79,11 @@ main {
 }
 
 #contact--image-container {
-    background-image: url("../images/contact_form.png");
-    background-size: cover;
+    background-image: url("../images/mail.png");
+    background-size: 80%;
+    background-color: #f0ecec;
     background-repeat: no-repeat;
-    background-position: 0%;
+    background-position: 50%;
 }
 
 .skills {
