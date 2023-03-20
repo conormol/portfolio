@@ -81,6 +81,7 @@ main {
     background-image: url("../images/contact_form.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0%;
 }
 
 .skills {
@@ -98,6 +99,21 @@ main {
 .skills--icon {
     height: 4rem;
     width: auto;
+    transition: height 0.2s ease-in;
+
 }
+
+.skills--icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 7rem;
+}
+
+.skills--icon:hover {
+    height: 5rem;
+}
+
 
 
