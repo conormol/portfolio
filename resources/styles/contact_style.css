@@ -2,7 +2,7 @@ header nav ul .contact--nav {
     opacity: 0.4;
 }
 
-form {
+.contact--form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

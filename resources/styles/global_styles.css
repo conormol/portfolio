@@ -44,7 +44,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;    
-    margin-bottom: 3rem;
 }
 
 header ul {
@@ -58,6 +57,7 @@ header ul li {
 
 main {
     min-height: 800px;
+    margin-top: 2rem;
 }
 
 footer {
