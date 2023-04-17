@@ -47,6 +47,10 @@ header {
     padding: 1rem 2rem;    
 }
 
+.header--button {
+    font-weight: bolder;
+}
+
 header ul {
     display: flex;
     list-style: none;
@@ -54,6 +58,10 @@ header ul {
 
 header ul li {
     margin-left: 1rem;
+}
+
+.current {
+    opacity: .4;
 }
 
 main {

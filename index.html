@@ -5,86 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./resources/styles/global_styles.css" rel="stylesheet" type="text/css">
+    <link href="./resources/styles/portfolio_style.css" rel="stylesheet" type="text/css">
     <link href="./resources/styles/index_style.css" rel="stylesheet" type="text/css">
     <title>Conor Molloy Portfolio</title>
 </head>
 <body>
     <header>
-        <a href="#">Conor Molloy</a>
+        <a class="header--button" href="#">Conor Molloy</a>
         <nav class="header--menu">
             <ul>
-                <li class="index--nav" href="#">Home</li>
-                <li><a class="portfolio--nav" href="./pages/portfolio.html">Portfolio</a></li>
+                <li class="index--nav current" href="#">Portfolio</li>
+                <li><a class="cv--nav" href="./pages/cv.html">CV</a></li>
                 <li><a class="contact--nav" href="./pages/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="description">
-            <h1>Welcome</h1>
-            <p>See below to browse through my projects or contact me should you wish to get in touch</p>
+        <section class="bio">
+            <h1>Welcome!</h1>
+            <p class="bio--paragraph">
+                I am an engineer and developer with skills and expeirence in the energy industry, data analysis, and frontend development. I graduated with a Master's degree in energy systems engineering from University College Dublin in 2019, before spending a little over two years working as an engineer and analyst at Intel, based in Leixlip, Ireland. I spent the first half of 2022 working and living in hostels around the coast of Spain and Portugal, before returning to Ireland to upskill as a developer. When I'm not working, I play guitar in a hardcore band called LaVein, and produce electronic music under the alias Papal State. Feel free to look at some of my projects below, or contact me if you wish to get in touch.
+            </p>
         </section>
-        <nav class="main--menu">
-            <div class="menu--container" id="portfolio--container">
-                <a href="./pages/portfolio.html" alt="Portfolio"><h2>Portfolio</h2></a>
-                <div class="menu--image-container" id="portfolio--image-container">
-                    <a href="./pages/portfolio.html" alt="Go to protfolio">View Projects</a>
+        <h1 class="portfolio--title-description">Web Portfolio</h1>
+        <nav class="project--nav">
+            <div class="project-container">
+                <div class="project--image-container" id="lavein">
+                    <a class="project--image-overlay" href="https://laveinirl.com" target="_blank">LaVein</a>
+                </div>
+                <div class="project--title-description">
+                    <a title="LaVein" href="https://laveinirl.com" target="_blank"><h3>LaVein</h3></a>
+                    <p>LaVein is a hardcore band from Dublin, Ireland. Visit their site to keep updated on releases, merchandise and shows.</p>
+                    <a class="github--link" href="https://github.com/conormol/LaVein" target="_blank">View site resources on Github</a>
                 </div>
             </div>
-            <div class="menu--container" id="contact--container">
-                <a href="./pages/contact.html" alt="Contact"><h2>Contact</h2></a>
-                <div class="menu--image-container" id="contact--image-container">
-                    <a href="./pages/contact.html" alt="Contact">Get in touch</a>
-                </div>
+        </nav>  
+        <h2 class="skills--title">
+            Skills
+        </h2>
+        <nav class="skills--icons">
+            <div class="skills--icon-container">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                    <img class="skills--icon" title="HTML5" alt="HTML5" src="./resources/images/html5-logo.png">
+                </a>
+            </div>
+            <div class="skills--icon-container">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                    <img class="skills--icon" title="CSS3" alt="CSS3" src="./resources/images/css3_logo.png">
+                </a>
+            </div>
+                <div class="skills--icon-container">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                    <img class="skills--icon" title="Javascript" alt="Javascript" src="./resources/images/javascript-logo.png">
+                </a>
+            </div>
+            <div class="skills--icon-container">
+                <a href="https://git-scm.com" target="_blank">
+                    <img class="skills--icon" title="Git" alt="Git" src="./resources/images/git_logo.png">
+                </a>
+            </div>
+            <div class="skills--icon-container">
+                <a href="https://github.com" target="_blank">
+                    <img class="skills--icon" title="Github" alt="Github" src="./resources/images/github_logo_2.png">
+                </a>
+            </div>
+            <div class="skills--icon-container">
+                <a href="https://www.figma.com" target="_blank">
+                    <img class="skills--icon" title="Figma" alt="Figma" src="./resources/images/figma_logo.png">
+                </a>
+            </div>
+            <div class="skills--icon-container">
+                <a href="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16" target="_blank">
+                    <img class="skills--icon" title="Microsoft SQL Server" alt="Microsoft SQL Server" src="./resources/images/mssql_logo.png">
+                </a>
+            </div>
+            <div class="skills--icon-container">
+                <a href="https://powerbi.microsoft.com/en-ie/landing/free-account/?&ef_id=Cj0KCQjwn9CgBhDjARIsAD15h0A-iHhTn9tr6AO9CHMrgIOt9mo_dFzWoB-6Q0AkdxfCabzoIuT_jscaApnkEALw_wcB:G:s&OCID=AIDcmm2ioz7r9j_SEM_Cj0KCQjwn9CgBhDjARIsAD15h0A-iHhTn9tr6AO9CHMrgIOt9mo_dFzWoB-6Q0AkdxfCabzoIuT_jscaApnkEALw_wcB:G:s&gclid=Cj0KCQjwn9CgBhDjARIsAD15h0A-iHhTn9tr6AO9CHMrgIOt9mo_dFzWoB-6Q0AkdxfCabzoIuT_jscaApnkEALw_wcB" target="_blank">
+                    <img class="skills--icon" title="Microsoft Power BI" alt="Microsoft Power BI" src="./resources/images/power_bi_logo.png">
+                </a>
             </div>
         </nav>
-        <section class="skills">
-            <h2 class="skills--title">
-                Skills
-            </h2>
-            <div class="skills--icons">
-                <div class="skills--icon-container">
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                        <img class="skills--icon" title="HTML5" alt="HTML5" src="./resources/images/html5-logo.png">
-                    </a>
-                </div>
-                <div class="skills--icon-container">
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                        <img class="skills--icon" title="CSS3" alt="CSS3" src="./resources/images/css3_logo.png">
-                    </a>
-                </div>
-                 <div class="skills--icon-container">
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                        <img class="skills--icon" title="Javascript" alt="Javascript" src="./resources/images/javascript-logo.png">
-                    </a>
-                </div>
-                <div class="skills--icon-container">
-                    <a href="https://git-scm.com" target="_blank">
-                        <img class="skills--icon" title="Git" alt="Git" src="./resources/images/git_logo.png">
-                    </a>
-                </div>
-                <div class="skills--icon-container">
-                    <a href="https://github.com" target="_blank">
-                        <img class="skills--icon" title="Github" alt="Github" src="./resources/images/github_logo_2.png">
-                    </a>
-                </div>
-                <div class="skills--icon-container">
-                    <a href="https://www.figma.com" target="_blank">
-                        <img class="skills--icon" title="Figma" alt="Figma" src="./resources/images/figma_logo.png">
-                    </a>
-                </div>
-                <div class="skills--icon-container">
-                    <a href="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16" target="_blank">
-                        <img class="skills--icon" title="Microsoft SQL Server" alt="Microsoft SQL Server" src="./resources/images/mssql_logo.png">
-                    </a>
-                </div>
-                <div class="skills--icon-container">
-                    <a href="https://powerbi.microsoft.com/en-ie/landing/free-account/?&ef_id=Cj0KCQjwn9CgBhDjARIsAD15h0A-iHhTn9tr6AO9CHMrgIOt9mo_dFzWoB-6Q0AkdxfCabzoIuT_jscaApnkEALw_wcB:G:s&OCID=AIDcmm2ioz7r9j_SEM_Cj0KCQjwn9CgBhDjARIsAD15h0A-iHhTn9tr6AO9CHMrgIOt9mo_dFzWoB-6Q0AkdxfCabzoIuT_jscaApnkEALw_wcB:G:s&gclid=Cj0KCQjwn9CgBhDjARIsAD15h0A-iHhTn9tr6AO9CHMrgIOt9mo_dFzWoB-6Q0AkdxfCabzoIuT_jscaApnkEALw_wcB" target="_blank">
-                        <img class="skills--icon" title="Microsoft Power BI" alt="Microsoft Power BI" src="./resources/images/power_bi_logo.png">
-                    </a>
-                </div>
-             </div>
-        </section>
     </main>
     <footer>
         <span class="copyright">&copy Conor Molloy 2023</span>
