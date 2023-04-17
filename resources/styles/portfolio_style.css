@@ -23,7 +23,6 @@ header nav ul .portfolio--nav {
 }
 
 .project--image-container {   
-    background-image: url("../images/project.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 65%;
@@ -53,6 +52,15 @@ header nav ul .portfolio--nav {
     align-items: center;
     height: 35%;
     padding: 1rem;
+}
+
+.github--link {
+    text-decoration: underline;
+}
+
+#lavein {
+    background-image: url("../images/lv_flat_white_on_black.png");
+    background-position: 50%;
 }
 
 
