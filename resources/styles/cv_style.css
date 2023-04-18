@@ -1,0 +1,32 @@
+.job--description {
+    list-style: circle;
+}
+
+main {
+    margin: 3rem 6rem;
+}
+
+.title--logo {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+}
+
+.title--logo p {
+    font-weight: bold;
+}
+
+.logo {
+    margin-right: 2rem;
+    width: auto;
+    height: 2rem;
+}
+
+.container {
+    margin: 3rem 0;
+}
+
+#references p {
+    text-align: center;
+    margin: 2rem 0;
+}
